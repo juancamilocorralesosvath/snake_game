@@ -21,7 +21,8 @@ func Hello(name string) (string, error) {
 	var message string
 	message = fmt.Sprint("Hi, %v.Welcome!", name)
 	*/
-	message := fmt.Sprintf(randomFormat(), name)
+	//message := fmt.Sprintf(randomFormat(), name)
+	message := fmt.Sprintf(randomFormat())
 	//this 'nil' means that there was no error
 	return message, nil
 }
